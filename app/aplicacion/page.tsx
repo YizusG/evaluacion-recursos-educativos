@@ -1,4 +1,5 @@
 import { InnerHero, SiteShell } from "../site-shell";
+import PdfButton from "../pdf-button";
 
 export default function Page() {
   return (
@@ -34,6 +35,11 @@ export default function Page() {
             <p>Contenido artístico confiable, favorece la observación e interpretación visual y permite adaptación docente.</p>
             <h3>Aspectos por mejorar</h3>
             <p>Poca interactividad, requiere mediación docente y depende de conexión a internet.</p>
+            <PdfButton
+              base="/documents/coda-contexto-analiza"
+              parts={10}
+              filename="Aplicacion-CODA-Contexto-Analiza-a-los-maestros.pdf"
+            />
           </div>
         </article>
 
@@ -48,6 +54,11 @@ export default function Page() {
             <p>Objetivos y actividades bien organizados, participación activa, trabajo cooperativo y buena reutilización.</p>
             <h3>Aspectos por mejorar</h3>
             <p>Secuencia extensa, algunas páginas con demasiado texto y requerimientos de materiales y tecnología.</p>
+            <PdfButton
+              base="/documents/coda-contexto-gaia"
+              parts={10}
+              filename="Aplicacion-CODA-Contexto-Gaia.pdf"
+            />
           </div>
         </article>
       </section>
