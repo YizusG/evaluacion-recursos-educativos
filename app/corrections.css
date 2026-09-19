@@ -140,3 +140,27 @@
 
 @media(max-width:1000px){.redesign-lead,.application-intro,.scale-section,.method-section,.comparison-block,.canva-section{grid-template-columns:1fr}.criteria-grid{grid-template-columns:1fr 1fr}.interpretation-grid{grid-template-columns:1fr 1fr}.application-results{grid-template-columns:1fr}.scale-list{grid-template-columns:repeat(5,1fr)}}
 @media(max-width:620px){.redesign-lead,.application-intro{padding:75px 20px}.reference-models,.criteria-section,.interpretation-section,.method-section,.questions-section,.application-results{padding-left:20px;padding-right:20px}.reference-models,.criteria-grid,.interpretation-grid{grid-template-columns:1fr}.redesign-problem,.instrument-summary,.application-close,.scale-section,.comparison-block,.canva-section{margin-left:20px;margin-right:20px;padding:34px 24px;border-radius:34px}.scale-list{grid-template-columns:1fr}.method-section{gap:30px}.questions-section article{grid-template-columns:48px 1fr;gap:14px}.application-results figure{height:210px}.canva-frame{border-radius:18px}}
+
+
+/* Botones de documentos CODA-Contexto */
+.pdf-action{
+  width:100%;
+  margin-top:28px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+  border:0;
+  border-radius:14px;
+  padding:14px 17px;
+  background:var(--navy);
+  color:#fff;
+  font:800 10px Arial,Helvetica,sans-serif;
+  letter-spacing:.07em;
+  text-transform:uppercase;
+  cursor:pointer;
+  transition:.25s;
+}
+.pdf-action:hover{background:var(--blue);transform:translateY(-2px)}
+.pdf-action:disabled{opacity:.65;cursor:wait;transform:none}
+.pdf-action span{font-size:18px;color:var(--gold)}
