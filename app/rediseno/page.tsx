@@ -24,7 +24,8 @@ export default function Page() {
         </div>
         <div>
           <p>
-            CODA-Contexto parte de la estructura de CODA e incorpora aportes de LORI y REEVES.
+            CODA-Contexto parte de la estructura de CODA (Fernández-Pampillón Cesteros, Domínguez Romero & Armas Ranero, 2012)
+            e incorpora aportes de LORI (Leacock & Nesbit, 2007) y REEVES (Reeves, 1994).
             El rediseño conserva criterios de calidad pedagógica y técnica, pero añade una lectura
             explícita de la comunicación y de las condiciones reales en las que el recurso será utilizado.
           </p>
@@ -49,7 +50,8 @@ export default function Page() {
           Los modelos revisados ofrecen criterios valiosos, pero al aplicarlos en la práctica pueden resultar
           extensos o poco ajustados a las condiciones concretas del aula. Por eso CODA-Contexto reúne criterios
           esenciales en un instrumento breve que también considera acceso, dispositivos, nivel de los estudiantes
-          y posibilidades reales de uso.
+          y posibilidades reales de uso, atendiendo a la necesidad de valorar los recursos educativos digitales
+          desde su pertinencia pedagógica y sus condiciones de implementación (Ministerio de Educación Nacional, 2012).
         </p>
       </section>
 
@@ -109,6 +111,17 @@ export default function Page() {
           El resultado numérico orienta la decisión, pero las observaciones permiten explicar por qué un recurso puede
           utilizarse, ajustarse o descartarse en un contexto determinado.
         </p>
+      </section>
+
+      <section className="references redesign-references">
+        <header>
+          <span>REFERENCIAS BIBLIOGRÁFICAS</span>
+          <h2>Fuentes que sustentan el rediseño</h2>
+        </header>
+        <p><span>01</span>Fernández-Pampillón Cesteros, A., Domínguez Romero, E., &amp; Armas Ranero, I. (2012). <i>Herramienta de evaluación de la calidad de objetos de aprendizaje (herramienta COdA): Guía para la producción y evaluación de materiales didácticos digitales.</i> Universidad Complutense de Madrid. <a href="https://docta.ucm.es/entities/publication/4593272d-230f-4d4f-9488-4a4b36ca0a5c" target="_blank" rel="noreferrer">Consultar fuente ↗</a></p>
+        <p><span>02</span>Leacock, T. L., &amp; Nesbit, J. C. (2007). A framework for evaluating the quality of multimedia learning resources. <i>Educational Technology &amp; Society, 10</i>(2), 44–59. <a href="https://www.sfu.ca/~jcnesbit/articles/leacocknesbit2007.htm" target="_blank" rel="noreferrer">Consultar artículo ↗</a></p>
+        <p><span>03</span>Ministerio de Educación Nacional. (2012). <i>Recursos educativos digitales abiertos: Colombia.</i> Ministerio de Educación Nacional.</p>
+        <p><span>04</span>Reeves, T. C. (1994). Evaluating what really matters in computer-based education. En M. Wild &amp; D. Kirkpatrick (Eds.), <i>Computer education: New perspectives</i> (pp. 219–246). MASTEC.</p>
       </section>
     </SiteShell>
   );
